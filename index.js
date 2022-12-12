@@ -1,3 +1,4 @@
+// Je déclare mes tableaux
 var tableau1= [];
 var tableau2= [];
 var tableau3= [];
