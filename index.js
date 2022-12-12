@@ -6,6 +6,7 @@ var tableau4= [];
 var tableau5= [];
 
 
+// Je déclare une variable allButton qui va prendre tous mes boutton add de mon html
 
 let allButton = document.getElementsByClassName("addButton")
 for (const button of allButton) {
