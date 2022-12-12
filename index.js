@@ -21,7 +21,7 @@ for (const button of allButton) {
       
     });
 }
-
+      
 
 // let inputGrade = document.getElementById("grade-ecole_pro-semestre1")
 // let inputDesc = document.getElementById("description-ecole_pro-semestre1")
