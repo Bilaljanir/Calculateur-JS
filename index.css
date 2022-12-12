@@ -1,0 +1,271 @@
+h1 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 44px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.hautContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+}
+
+.basContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-top: 42px;
+}
+
+.titleh1 {
+    height: 90px;
+    left: 7px;
+    top: 0px;
+
+    background: #767ADA;
+    display: flex;
+    justify-content: center;
+}
+
+.titleh2 {
+    left: 0%;
+    right: 0%;
+    top: 23.81%;
+    bottom: -23.81%;
+
+    background: #767ADA;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 138px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+h2 {
+    left: 14.05%;
+    right: 14.88%;
+    top: 54.76%;
+    bottom: 9.52%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    width: 98px;
+    height: 15px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
+
+.grp1 >.radioMath > input{
+    display: none;
+}
+
+
+.table {
+    width: 169px;
+    margin-top: 31px;
+}
+
+.bouttonsAddAndRemoveGrades {
+    display: flex;
+    justify-content: center;
+    gap: 69px;
+}
+
+.addButton>input {
+    width: 43.83px;
+    height: 39.82px;
+    left: 137px;
+    top: 444.33px;
+    bottom: 52.72%;
+
+    background: #FFFFFF;
+    border: 4px solid #767ADA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.removeButton>input {
+    width: 43.83px;
+    height: 39.82px;
+    left: 137px;
+    top: 444.33px;
+    bottom: 52.72%;
+
+    background: #FFFFFF;
+    border: 4px solid #767ADA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.haut {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* grp1 */
+
+
+.grp1 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+}
+
+/* grp2 */
+
+.grp2 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+}
+
+/* grp3 */
+
+.grp3 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+}
+
+
+.buttonsMathEnglish {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 38px;
+    margin-top: 42px;
+
+}
+
+.mathButton>input {
+    box-sizing: border-box;
+
+    left: 46.67%;
+    right: 48.61%;
+    top: 19.53%;
+    bottom: 77.54%;
+    width: 68px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 4px solid #767ADA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.englishButton>input {
+    box-sizing: border-box;
+
+    left: 46.67%;
+    right: 48.61%;
+    top: 19.53%;
+    bottom: 77.54%;
+
+    width: 68px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 4px solid #767ADA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.semestreBoxMath {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    margin-top: 47px;
+}
+
+.semestreBoxMath>label {
+    margin-bottom: 95px;
+}
+
+.radioMath {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+}
+
+/* grp4 */
+
+.grp4 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+}
+
+/* grp5 */
+
+.grp5 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+}
+
+.moyenneFinal {
+    justify-content: center;
+}
+
+.titleeh2 {
+    left: 0%;
+    right: 0%;
+    top: 23.81%;
+    bottom: -23.81%;
+
+    background: #767ADA;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 138px;
+    height: 42px;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    width: 237px;
+    height: 174px;
+    left: 132px;
+    top: 794px;
+
+    background: #FFFFFF;
+}
+
+.tdClass {
+    background-color: #767ADA;
+}
+
