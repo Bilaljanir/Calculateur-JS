@@ -6,6 +6,10 @@ var tableau4= [];
 var tableau5= [];
 
 
+// add semestre
+
+
+
 // Je déclare une variable allButton qui va prendre tous mes boutton add de mon html
 
 let allButton = document.getElementsByClassName("addButton")
@@ -16,15 +20,25 @@ for (const button of allButton) {
         let inputGrade = parseFloat(document.getElementById(id.join("-")).value)
         id[0] = 'description'
         let inputDesc = document.getElementById(id.join("-")).value
-
+        id[0]= 'table'
+        let tableID=document.getElementById(id.join("-"))
+        let row = tableID.insertRow();
+        let cell1 = row.insertCell();
+        let cell2 = row.insertCell();
+        cell1.innerHTML =inputGrade;
+        cell2.innerHTML =inputDesc;
+        console.log(tableID);
         console.log(inputDesc);
         console.log(inputGrade);
         console.log(id);
-      
+        
+
     });
 }
 
+function addToList(){
 
+  }
 // let inputGrade = document.getElementById("grade-ecole_pro-semestre1")
 // let inputDesc = document.getElementById("description-ecole_pro-semestre1")
 
