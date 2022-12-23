@@ -1,11 +1,11 @@
 let gradesObject = {
-    ecole_pro: {
+    EcolePro: {
         semestre1: [],
     },
-    ecole_inter: {
+    ecoleinter: {
         semestre1: [],
     },
-    comp_elargie: {
+    compelargie: {
         branches: {
             math: {
                 semestre1: [],
@@ -21,7 +21,7 @@ let gradesObject = {
             },
         },
     },
-    culture_G: {
+    cultureG: {
         semestres: {
             semestres: {
 
@@ -76,14 +76,38 @@ for (const button of allButton) {
 let removeButton = document.getElementsByClassName("removeButton")
 for (const button of removeButton) {
     button.addEventListener("click", (e) => {
+        document.getElementById("table-ecole_pro-semestre1").deleteRow(1);    
 
+    });
+}
 
-        let id = e.target.id.split("-")
-        id[0] = 'grade'
-        let inputGrade = parseFloat(document.getElementById(id.join("-")).value)
-        id[0] = 'description'
-        let inputDesc = document.getElementById(id.join("-")).value
-        id[0]= 'table'
+let removeButton1 = document.getElementsByClassName("removeButton")
+for (const button of removeButton) {
+    button.addEventListener("click", (e) => {
+        document.getElementById("table-cours_inter-semestre1").deleteRow(1);    
+
+    });
+}
+
+let removeButton2 = document.getElementsByClassName("removeButton")
+for (const button of removeButton) {
+    button.addEventListener("click", (e) => {
+        document.getElementById("table-compétance_elargie-semestre1").deleteRow(1);    
+
+    });
+}
+
+let removeButton3 = document.getElementsByClassName("removeButton")
+for (const button of removeButton) {
+    button.addEventListener("click", (e) => {
+        document.getElementById("table-culture_général-semestre1").deleteRow(1);    
+
+    });
+}
+let removeButton4 = document.getElementsByClassName("removeButton")
+for (const button of removeButton) {
+    button.addEventListener("click", (e) => {
+        document.getElementById("table-TPI-semestre1").deleteRow(1);    
 
     });
 }
