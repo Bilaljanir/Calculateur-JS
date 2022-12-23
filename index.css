@@ -268,3 +268,14 @@ h2 {
 .tdClass {
     background-color: #767ADA;
 }
+
+.reussi{
+    background: #FFFFFF;
+    border: 4px solid #767ADA;
+    box-shadow: #767ADA;
+    width: 97px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    vertical-align: inherit;
+}
